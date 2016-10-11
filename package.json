@@ -1,0 +1,19 @@
+{
+  "name": "reo-devtools",
+  "version": "0.0.0",
+  "description": "reo-devtools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bili ./src/index.js --watch --compress -d dist --format umd -n panel"
+  },
+  "keywords": [
+    "reo",
+    "devtools"
+  ],
+  "author": "fengzilong",
+  "license": "MIT",
+  "devDependencies": {
+    "jsondiffpatch": "^0.2.4",
+    "reo": "0.0.4"
+  }
+}
